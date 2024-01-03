@@ -38,6 +38,17 @@ customization {
 }
 
 customization {
+  orientation = mid-centered
+  name = identifier_ab6c67e37ecf4560
+  x = -205
+  width = 410
+  actionid = 7538568f-1923-4e43-9a80-358ecf43897a1689521299387
+  action = addanimation
+  y = -120
+  height = 240
+}
+
+customization {
   custom_color_hex = #FFFFFF
   orientation = top-left
   hidden = false
@@ -97,16 +108,5 @@ customization {
   progress_for_element_orientation = false
   direction = right
   height = 16
-}
-
-customization {
-  orientation = mid-centered
-  name = identifier_ab6c67e37ecf4560
-  x = -205
-  width = 410
-  actionid = 7538568f-1923-4e43-9a80-358ecf43897a1689521299387
-  action = addanimation
-  y = -120
-  height = 240
 }
 
