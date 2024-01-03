@@ -1,0 +1,112 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #ffffff
+  x = 0
+  width = %guiwidth%
+  action = addshape
+  actionid = 2482c057-8a3c-47ee-b03d-1bf94d4c63481704281699051
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 444
+  width = 1032
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = b0862e4e-7666-4078-8b02-6166229ca83e1689517959661
+  y = 387
+  height = 258
+}
+
+customization {
+  custom_color_hex = #FFFFFF
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 1db979ef-68f4-475c-9f23-d12fee34b2671689517959671
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 228
+  width = 504
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 70e39402-267a-4aba-a978-37cb7a93bc3d1689517959671
+  y = 415
+  height = 10
+}
+
+customization {
+  orientation = bottom-centered
+  shape = rectangle
+  color = #ff5500
+  x = -185
+  width = 370
+  action = addshape
+  actionid = ac6648bd-4f4d-4553-9be8-02cc5e9065ba1704281227355
+  y = -77
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  shape = rectangle
+  color = #ffffff
+  x = -184
+  width = 368
+  action = addshape
+  actionid = df7593bc-e8ea-4b34-9fd6-0ce6ac2359291704281375752
+  y = -76
+  height = 18
+}
+
+customization {
+  orientation = bottom-centered
+  background_color = #ABC8F700
+  x = -183
+  width = 366
+  bar_color = #FF5500
+  action = custom_layout_element:drippy_custom_loading_bar
+  actionid = 37f68130-d091-487a-b73b-33c0d2b066171689518527166
+  y = -75
+  progress_for_element_orientation = false
+  direction = right
+  height = 16
+}
+
+customization {
+  orientation = mid-centered
+  name = identifier_ab6c67e37ecf4560
+  x = -205
+  width = 410
+  actionid = 7538568f-1923-4e43-9a80-358ecf43897a1689521299387
+  action = addanimation
+  y = -120
+  height = 240
+}
+

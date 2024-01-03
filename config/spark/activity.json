@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Scottbass",
+      "uniqueId": "c3bee0de-3510-43c6-b5f1-2ca38eeeee0a"
+    },
+    "time": 1688167487891,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "E:\\Curseforge\\minecraft\\Instances\\Breizh Craft\\config\\spark\\heap-2023-07-01_01.24.30.hprof"
+    }
+  }
+]
