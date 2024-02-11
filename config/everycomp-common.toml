@@ -360,6 +360,7 @@
 				glass_door = true
 				mystic_door = true
 				bark_glass_door = true
+				waffle_door = true
 
 			[general.entries.wood_type.mcwbridges]
 				bridge_pier = true
